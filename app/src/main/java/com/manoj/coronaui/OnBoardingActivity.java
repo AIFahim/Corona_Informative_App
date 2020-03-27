@@ -13,6 +13,8 @@ import com.ramotion.paperonboarding.PaperOnboardingPage;
 import com.ramotion.paperonboarding.listeners.PaperOnboardingOnChangeListener;
 import com.ramotion.paperonboarding.listeners.PaperOnboardingOnRightOutListener;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 public class OnBoardingActivity extends AppCompatActivity {
@@ -58,12 +60,14 @@ public class OnBoardingActivity extends AppCompatActivity {
     private ArrayList<PaperOnboardingPage> getDataForOnboarding() {
         // prepare data
         PaperOnboardingPage scr1 = new PaperOnboardingPage("Privacy", "Your Privacy, Our Responsibility",
-                Color.parseColor("#678FB4"), R.drawable.privacy_im, R.drawable.key);
+                Color.parseColor("#72A8F4"), R.drawable.lock_key, R.drawable.key) ;
         //Color.parseColor("#678FB4"), R.drawable.privacy_im, R.drawable.key);
         PaperOnboardingPage scr2 = new PaperOnboardingPage("Bluetooth", "keeps you nearest & dearest one safe ",
-                Color.parseColor("#BBDEFB"), R.drawable.bluetooth_im, R.drawable.key);
+                Color.parseColor("#E879F1"), R.drawable.bluetooth, R.drawable.key);
+              //  Color.parseColor("#BBDEFB"), R.drawable.bluetooth_im, R.drawable.key);
         PaperOnboardingPage scr3 = new PaperOnboardingPage("Location", "This app needs your Location information to track you, to provide help ",
-                Color.parseColor("#9B90BC"), R.drawable.location_im, R.drawable.key);
+                Color.parseColor("#A4BBDB"), R.drawable.location, R.drawable.key);
+               // Color.parseColor("#9B90BC"), R.drawable.location_im, R.drawable.key);
 
         ArrayList<PaperOnboardingPage> elements = new ArrayList<>();
         elements.add(scr1);
