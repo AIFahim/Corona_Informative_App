@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/expandableButton1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#9c27b0"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButton"
+            android:paddingRight="10dp"
+            android:text="HotLine"
+            android:textColor="#fff" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expandableButton1"
+            app:ael_duration="400"
+            app:ael_expanded="true"
+            app:ael_interpolator="accelerate"
+            app:ael_orientation="vertical">
+
+            <include
+                layout="@layout/hotline_layout"
+                android:layout_width="match_parent"
+                android:layout_height="650dp" />
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

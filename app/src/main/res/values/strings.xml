@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Corona BD</string>
+    <string name="slidertext">এখানে ইমেজ স্লাইডার এর বাংলা টেক্সট হবে </string>
+
+    <string name="slidertextone">প্রস্তুতি গ্রহণ করুন \t\t\t\t\t\t\t\t\t\t\t\t প্রস্তুতি গ্রহণ করুন </string>
+    <string name="slidertexttwo">মানসিক চাপ মুক্ত থাকুন \t\t\t\t\t\t\t\t\t\t\t\t মানসিক চাপ মুক্ত থাকুন</string>
+    <string name="slidertextthree">নিজের এবং অন্যদের নিরাপত্তা \t\t\t\t\t\t\t\t\t\t\t\t নিজের এবং অন্যদের নিরাপত্তা</string>
+    <string name="slidertextfour">কর্মস্থল সুরক্ষিত করুন \t\t\t\t\t\t\t\t\t\t\t\t কর্মস্থল সুরক্ষিত করুন</string>
+    <string name="slidertextfive">স্বাস্থ্যকর অভ্যাস গড়ে তুলুন \t\t\t\t\t\t\t\t\t\t\t\t স্বাস্থ্যকর অভ্যাস গড়ে তুলুন</string>
+    <string name="slidertextsix">মাস্ক কখন ব্যবহার করবেন \t\t\t\t\t\t\t\t\t\t\t\t মাস্ক কখন ব্যবহার করবেন</string>
+    <string name="slidertextseven">গুজবে সচেতন হউন \t\t\t\t\t\t\t\t\t\t\t\t গুজবে সচেতন হউন</string>
+
+
+    <string name="hotline">জরুরী যোগাযোগ</string>
+
+
+    <string name="jatioseba">জাতীয় জরুরি সেবা</string>
+    <string name="jatiosebaNumber">999</string>
+    <string name="sasthobataon">স্বাস্থ্য বাতায়ন</string>
+    <string name="sasthobataonNum">16263</string>
+    <string name="baqc">বাংলাদেশ আর্মি\nকোয়ারেন্টাইন ক্যাম্প</string>
+    <string name="iedcr">আইইডিসিআর</string>
+    <string name="call_now">কল করুন</string>
+</resources>
