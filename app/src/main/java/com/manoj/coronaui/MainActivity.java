@@ -166,6 +166,7 @@ public class MainActivity extends AppCompatActivity {
         TextSliderFour = findViewById(R.id.idTextSLider_four);
         TextSliderFive = findViewById(R.id.idTextSLider_five);
         TextSliderSix = findViewById(R.id.idTextSLider_six);
+        TextSliderSeven = findViewById(R.id.idTextSLider_seven);
 
         TextSlider.setSelected(true);
         TextSliderTwo.setSelected(true);
@@ -173,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
         TextSliderFour.setSelected(true);
         TextSliderFive.setSelected(true);
         TextSliderSix.setSelected(true);
+        TextSliderSeven.setSelected(true);
     }
 
     private void HotlineCall() {
