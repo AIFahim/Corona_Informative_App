@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#C1F8FA"
+    android:background="#C1D8E3"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -19,6 +19,8 @@
         android:layout_height="match_parent">
 
 
+
+
         <androidx.cardview.widget.CardView
 
             app:cardCornerRadius="@dimen/CornerRadius"
@@ -28,14 +30,14 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
 
                 <androidx.cardview.widget.CardView
                     android:layout_marginBottom="@dimen/margin"
                    app:cardCornerRadius="0dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
             <TextView
                 android:background="@color/colorPrimary"
@@ -73,7 +75,7 @@
              android:layout_height="wrap_content">
 
              <LinearLayout
-                 android:layout_width="wrap_content"
+                 android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:orientation="vertical">
 
@@ -81,7 +83,7 @@
                  <androidx.cardview.widget.CardView
                      android:layout_marginBottom="@dimen/margin"
                      app:cardCornerRadius="0dp"
-                     android:layout_width="wrap_content"
+                     android:layout_width="match_parent"
                      android:layout_height="wrap_content">
 
 
@@ -120,13 +122,13 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <androidx.cardview.widget.CardView
                     android:layout_marginBottom="@dimen/margin"
                     app:cardCornerRadius="0dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
 
@@ -166,13 +168,13 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <androidx.cardview.widget.CardView
                     android:layout_marginBottom="@dimen/margin"
                     app:cardCornerRadius="0dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
 
@@ -213,7 +215,7 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
 
@@ -221,7 +223,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_marginBottom="@dimen/margin"
                     app:cardCornerRadius="0dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
 
@@ -262,13 +264,13 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <androidx.cardview.widget.CardView
                     android:layout_marginBottom="@dimen/margin"
                     app:cardCornerRadius="0dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
             <TextView
@@ -309,13 +311,13 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <androidx.cardview.widget.CardView
                     android:layout_marginBottom="@dimen/margin"
                     app:cardCornerRadius="0dp"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                 <TextView
