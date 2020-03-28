@@ -21,7 +21,8 @@
 
         <androidx.cardview.widget.CardView
 
-            style="@style/CardViewMargin"
+            app:cardCornerRadius="@dimen/CornerRadius"
+            style="@style/CardViewMarginone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -31,6 +32,11 @@
                 android:layout_height="wrap_content">
 
 
+                <androidx.cardview.widget.CardView
+                    android:layout_marginBottom="@dimen/margin"
+                   app:cardCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
             <TextView
                 android:background="@color/colorPrimary"
                 android:textColor="#FFFFFF"
@@ -47,8 +53,10 @@
                 android:scrollHorizontally="true"
                 />
 
+                </androidx.cardview.widget.CardView>
 
-            <androidx.viewpager.widget.ViewPager
+
+                <androidx.viewpager.widget.ViewPager
                 android:id="@+id/viewPagerOne"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
@@ -59,6 +67,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/CornerRadius"
              style="@style/CardViewMargin"
              android:layout_width="match_parent"
              android:layout_height="wrap_content">
@@ -67,6 +76,14 @@
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:orientation="vertical">
+
+
+                 <androidx.cardview.widget.CardView
+                     android:layout_marginBottom="@dimen/margin"
+                     app:cardCornerRadius="0dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content">
+
 
             <TextView
             android:id="@+id/idTextSLider_two"
@@ -83,6 +100,7 @@
             android:marqueeRepeatLimit="marquee_forever"
             android:scrollHorizontally="true"
             />
+                 </androidx.cardview.widget.CardView>
 
              <androidx.viewpager.widget.ViewPager
                  android:id="@+id/viewPager_two"
@@ -95,6 +113,7 @@
     </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/CornerRadius"
             style="@style/CardViewMargin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -103,6 +122,14 @@
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginBottom="@dimen/margin"
+                    app:cardCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
             <TextView
                 android:id="@+id/idTextSLider_three"
                 android:text="@string/slidertextthree"
@@ -119,6 +146,8 @@
                 android:scrollHorizontally="true"
                 />
 
+                </androidx.cardview.widget.CardView>
+
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/viewPager_three"
                     android:layout_width="match_parent"
@@ -130,6 +159,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/CornerRadius"
             style="@style/CardViewMargin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -138,6 +168,14 @@
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginBottom="@dimen/margin"
+                    app:cardCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
             <TextView
                 android:id="@+id/idTextSLider_four"
                 android:text="@string/slidertextfour"
@@ -153,6 +191,9 @@
                 android:marqueeRepeatLimit="marquee_forever"
                 android:scrollHorizontally="true"
                 />
+
+                </androidx.cardview.widget.CardView>
+
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/viewPager_four"
                     android:layout_width="match_parent"
@@ -165,6 +206,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/CornerRadius"
             style="@style/CardViewMargin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -173,6 +215,17 @@
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginBottom="@dimen/margin"
+                    app:cardCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
             <TextView
                 android:id="@+id/idTextSLider_five"
                 android:text="@string/slidertextfive"
@@ -188,6 +241,9 @@
                 android:marqueeRepeatLimit="marquee_forever"
                 android:scrollHorizontally="true"
                 />
+
+                </androidx.cardview.widget.CardView>
+
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/viewPager_five"
                     android:layout_width="match_parent"
@@ -199,6 +255,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/CornerRadius"
             style="@style/CardViewMargin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -207,6 +264,13 @@
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginBottom="@dimen/margin"
+                    app:cardCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/idTextSLider_six"
                 android:text="@string/slidertextsix"
@@ -224,6 +288,7 @@
                 />
 
 
+                </androidx.cardview.widget.CardView>
 
             <androidx.viewpager.widget.ViewPager
                 android:id="@+id/viewPager_six"
@@ -236,8 +301,9 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/CornerRadius"
             style="@style/CardViewMargin"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -245,6 +311,13 @@
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginBottom="@dimen/margin"
+                    app:cardCornerRadius="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
                 <TextView
                     android:id="@+id/idTextSLider_seven"
                     android:text="@string/slidertextseven"
@@ -261,7 +334,7 @@
                     android:scrollHorizontally="true"
                     />
 
-
+                </androidx.cardview.widget.CardView>
 
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/viewPager_seven"
