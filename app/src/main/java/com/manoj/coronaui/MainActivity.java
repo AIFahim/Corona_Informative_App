@@ -14,6 +14,9 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -22,6 +25,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
@@ -63,6 +67,35 @@ public class MainActivity extends AppCompatActivity {
         AllCall();
 
  }
+
+
+  //////////////////////////////// For Top Left Menu /////////////////////////////////////////////
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.i_button_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId() == R.id.ibutton) {
+            Intent intent = new Intent(MainActivity.this, Information.class);
+            startActivity(intent);
+        }
+        //Toast.makeText(this, ""+"Matha Nosto"+" "+item.getItemId(), Toast.LENGTH_SHORT).show();
+        /*else
+            Toast.makeText(this, ""+"Matha Tikase"+" "+item.getItemId()+" "+R.menu.i_button_menu, Toast.LENGTH_SHORT).show();*/
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
+    //////////////////////////////// For Top Left Menu /////////////////////////////////////////////
+
+
+
 
     private void AllCall() {
         HotlineCall();

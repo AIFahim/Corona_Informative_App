@@ -11,6 +11,32 @@
     <string name="slidertextseven">গুজবে সচেতন হউন \t\t\t\t\t\t\t\t\t\t\t\t গুজবে সচেতন হউন</string>
 
 
+
+    ///// Title names of Information Page
+
+    <string name="poricolpolaouddeg">পরিকল্পনা ও উদ্যোগে</string>
+    <string name="sohojugitai">সহযোগিতায়</string>
+    <string name="bastobayonsohojugi">বাস্তবায়ন সহযোগী</string>
+
+    /////
+
+    ///// Characters names of Information Page
+
+    <string name="Junayed">জুনায়েদ আহমেদ পলক</string>
+
+    /////
+
+    ///// Designation of Information Page
+
+    <string name="ICTMinister">প্রতিমন্ত্রী, আইসিটি ডিভিশন</string>
+    <string name="Developer">Developer</string>
+
+    /////
+
+
+
+
+
     <string name="hotline">জরুরী যোগাযোগ</string>
 
 

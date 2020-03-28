@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Information"
+    android:background="#C1D8E3"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="@dimen/margin"
+                app:cardCornerRadius="@dimen/CornerRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <!--<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slide_four_img_eight"
+                    >
+                </ImageView>-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#090C0E"
+                        android:textSize="20sp"
+                        android:text="@string/poricolpolaouddeg"
+                        ></TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:background="@drawable/shadow_circular"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image1"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/slide_four_img_eight"
+                        app:civ_border_width="5dp"
+                        app:civ_border_color="#FFFFFF"/>
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#54636E"
+                        android:textSize="22sp"
+                        android:text="@string/Junayed"
+                        ></TextView>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#090C0E"
+                        android:textSize="20sp"
+                        android:text="@string/poricolpolaouddeg"
+                        ></TextView>
+
+                </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardViewMarginone"
+                android:layout_marginBottom="@dimen/margin"
+                app:cardCornerRadius="@dimen/CornerRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <!--<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slide_four_img_eight"
+                    >
+                </ImageView>-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#090C0E"
+                        android:textSize="20sp"
+                        android:text="@string/sohojugitai"
+                        ></TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:background="@drawable/shadow_circular"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image2.1"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/slide_four_img_eight"
+                        app:civ_border_width="5dp"
+                        app:civ_border_color="#FFFFFF"/>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                        android:background="@drawable/shadow_circular"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image2.2"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/slide_four_img_eight"
+                        app:civ_border_width="5dp"
+                        app:civ_border_color="#FFFFFF"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#54636E"
+                        android:textSize="22sp"
+                        android:text="@string/Junayed"
+                        ></TextView>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#090C0E"
+                        android:textSize="20sp"
+                        android:text="@string/poricolpolaouddeg"
+                        ></TextView>
+
+                </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                style="@style/CardViewMarginone"
+                android:layout_marginBottom="@dimen/margin"
+                app:cardCornerRadius="@dimen/CornerRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <!--<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slide_four_img_eight"
+                    >
+                </ImageView>-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#090C0E"
+                        android:textSize="20sp"
+                        android:text="@string/bastobayonsohojugi"
+                        ></TextView>
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:background="@drawable/shadow_circular"
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image3"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/slide_four_img_eight"
+                        app:civ_border_width="5dp"
+                        app:civ_border_color="#FFFFFF"/>
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#54636E"
+                        android:textSize="22sp"
+                        android:text="@string/Junayed"
+                        ></TextView>
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="hsdfhjh"
+                        android:layout_gravity="center"
+                        android:textColor="#090C0E"
+                        android:textSize="20sp"
+                        android:text="@string/poricolpolaouddeg"
+                        ></TextView>
+
+                </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
